@@ -1,0 +1,69 @@
+#page-header {
+    height: 120px ;
+}
+#page-header .container {
+    position: relative;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+#brand {
+    width: fit-content;
+    height: 100% ;
+    float: right;
+}
+#brand a {
+    display: inline-block;
+    width: 100% ;
+    height: 100%;
+}
+#social-icons {
+    float: left ;
+    height: 100% ;
+}
+#social-icons ul {
+    height: 100% ;
+    direction: ltr;
+    box-sizing: border-box;
+    padding: 21px 0 ;
+    margin: unset ;
+    list-style: none ;
+}
+#social-icons ul li {
+    display: inline-block;
+    width: 36px ;
+    height: 36px ;
+    margin-right: 10px;
+}
+#social-icons ul li:last-child {
+    margin-right: unset ;
+}
+#social-icons ul li a {
+    display: inline-block;
+    width: 100% ;
+    height: 100% ;
+}
+#social-icons ul li a img {
+    width: 100% ;
+    height: 100% ;
+    border-radius: 5px;
+}
+#nav-toggle-changer {
+    display: none ;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    border-radius: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+}
+#nav-toggle-changer:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+#nav-toggle-changer img {
+    width: 100% ;
+    height : 100% ; 
+}

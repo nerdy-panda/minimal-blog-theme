@@ -1,0 +1,25 @@
+@import url("classes/font-classes.css");
+@import url("classes/grids.css");
+@import url("classes/colors.css");
+@import url("classes/backgrounds.css");
+@import url("classes/boxshadows.css");
+
+.container {
+    width: var(--col-10);
+    margin-right: auto ;
+    margin-left: auto;
+}
+.button {
+    display: inline-block;
+    padding: 12px 15px;
+    background-color: #eee;
+}
+.rounded-button {
+    border-radius: 3px;
+}
+.orange-bg {
+    background-color: #f47858;
+}
+.clear {
+    clear: both;
+}

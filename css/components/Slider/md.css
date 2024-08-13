@@ -1,0 +1,24 @@
+@media screen and (max-width : 768px ) {
+    .slider-controller {
+        width: 30px;
+        height: 30px;
+    }
+    .slider-controller img {
+        max-width: 100% ;
+    }
+    #slider-prev-controller {
+        left: 5px ;
+    }
+    #slider-next-controller {
+        right: 5px;
+    }
+    .slider-item-image-container {
+        width: fit-content ;
+        margin: 0 auto;
+        float: unset ;
+    }
+    .slider-item-content-container {
+        display: none ;
+        background-color: red ;
+    }
+}

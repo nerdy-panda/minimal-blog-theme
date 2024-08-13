@@ -1,0 +1,46 @@
+#news-letter-aside {
+    background-color: #29be9f;
+    box-sizing: border-box ;
+    padding: 30px 0;
+}
+#news-letter-aside h2 {
+    color: white ;
+    width: fit-content;
+    margin: 0 auto;
+    border-bottom: 4px solid #b6e5db;
+    padding-bottom:10px ;
+    font-size: 20px;
+}
+#news-letter-aside form {
+    width: var(--col-10);
+    margin: 0 auto;
+    margin-top: 26px ;
+}
+#news-letter-aside form input {
+    width: 100% ;
+    box-sizing: border-box;
+    padding: 8px ;
+    margin-bottom: 10px ;
+    border: unset ;
+    border-radius: 2px ;
+}
+#news-letter-aside form input::placeholder {
+    color : #a2a2a2;
+}
+
+#news-letter-aside form input:focus {
+    outline: unset ;
+}
+#news-letter-aside form input:last-child {
+    margin-bottom: unset ;
+}
+#news-letter-aside form button {
+    display: block;
+    color: white ;
+    border: unset ;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bolder;
+    padding: 18px;
+}

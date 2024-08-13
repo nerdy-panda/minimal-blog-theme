@@ -1,0 +1,28 @@
+#page-nav {
+    height: 54px ;
+    background-color: #39424e;
+    color: white ;
+}
+#page-nav .container {
+    height: 100% ;
+}
+#page-nav .container ul {
+    height: 100% ;
+    margin: unset ;
+    padding: unset ;
+}
+#page-nav .container ul li {
+    display: inline-block;
+    height: 100% ;
+    list-style: none ;
+    border-left: 1px solid #515964;
+    box-shadow: -1px 0 0 0 #262d37;
+}
+#page-nav .container ul li a {
+    display: inline-block;
+    height: 100% ;
+    box-sizing: border-box ;
+    padding: 19px 24px ;
+    color: white ;
+    text-decoration: none ;
+}

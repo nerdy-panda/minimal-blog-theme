@@ -1,0 +1,8 @@
+@media screen and (min-width : 768px ) and (max-width : 992px ) {
+    #news-letter-aside h2 {
+        font-size: 18px ;
+    }
+    #news-letter-aside form button {
+        font-size: 14px ;
+    }
+}

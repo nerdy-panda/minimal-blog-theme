@@ -1,0 +1,12 @@
+@import url("../NewsLetterAside/main.css");
+@import url("../RecentlyPostsAside/main.css");
+aside {
+    width: var(--col-3);
+    float: right ;
+}
+.aside-section {
+    margin-bottom: 15px ;
+}
+.aside-section:last-child {
+    margin-bottom: unset;
+}

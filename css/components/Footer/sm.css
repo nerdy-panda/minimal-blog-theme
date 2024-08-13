@@ -1,0 +1,33 @@
+@media screen and (max-width : 767px ) {
+    #footer-left-col {
+        float: unset ;
+        width: unset ;
+        direction: unset ;
+        text-align: center ;
+    }
+    #footer-right-col {
+        float: unset ;
+        width: unset ;
+    }
+    #footer-nav ul li {
+        display: block ;
+        margin-bottom: 25px ;
+    }
+    #footer-nav ul li:last-child {
+        margin-bottom: unset ;
+    }
+    #footer-nav ul li::after {
+        content: unset ;
+    }
+    #footer-nav ul li a {
+        display: block ;
+        text-align: center ;
+    }
+    
+    #copyright-text-container {
+        padding: 8px 0;
+    }
+    #copyright-text-container p {
+        line-height: 35px ;
+    }
+}

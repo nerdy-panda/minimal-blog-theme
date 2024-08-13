@@ -1,0 +1,22 @@
+@media screen and (max-width : 768px ) {
+    #page-nav {
+        height: fit-content;
+        display: none ;
+    }
+    #page-nav ul li {
+        display: block !important;
+        border-left: unset !important ;
+        border-bottom: 1px solid #262d37;
+        box-shadow: unset !important;
+    }
+    #page-nav ul li:hover {
+        background-color: #3d4551;
+    }
+    #page-nav ul li:last-child {
+        border-bottom: unset ;
+    }
+    #page-nav ul li a {
+        display: block !important;
+        text-align: center ;
+    }
+}

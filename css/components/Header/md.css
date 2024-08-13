@@ -1,0 +1,24 @@
+@media screen and (max-width : 768px ) {
+    #page-header {
+        height: fit-content ;
+    }
+    #page-header .container {
+        padding-bottom: 10px ;
+    }
+    #brand {
+        width: unset ;
+        float: unset ;
+        text-align: center ;
+    }
+    #social-icons {
+        display: none;
+        width: unset ;
+        float: unset ;
+    }
+    #social-icons ul{
+        text-align: center;
+    }
+    #nav-toggle-changer {
+        display: block ;
+    }
+}
